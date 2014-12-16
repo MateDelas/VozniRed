@@ -1,0 +1,221 @@
+body{
+	background-color:#6EABCF;
+	background-image:url('../media/img/Orion1.jpg');
+	 background-attachment: fixed;
+   	 background-position: 50px 100px; 
+	background-repeat: no-repeat;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div#wrapper {
+	width: 640px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -2.5em auto;
+	overflow: hidden;
+}
+
+#header>img{
+	margin:20px 0px 30px 10px;
+	
+}
+
+div.container {
+	background-color: #f8fbfb;
+	border-radius: 16px;
+	padding: 2em;
+	margin-bottom: 1em;
+}
+
+div.shadow {
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+h1{
+	text-align: center;
+    font-size: 55px;
+	color: #6EABCF;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px #525266;
+}
+
+h2{
+	text-align: center;
+    font-size: 45px;
+	color: #6EABCF;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px #525266;
+	margin-top: 0;
+}
+
+.main-nav{
+	position:relative;
+	float:right;
+}
+
+nav ul{
+	list-style:none;
+	list-style-image:none;
+	margin-right:10px;
+	padding:0;
+}
+
+.main-nav>ul>li{
+	position:relative;
+	height: 1.5em;
+	display: block;
+	float:left;
+	margin-left: 43px;
+	margin-top: 110px;
+}
+
+.main-nav>ul>li>a{
+	display:block;
+	height: 41px;
+	color: #fff;
+	text-decoration:none;
+	font-weight: 400;
+}
+
+div.container p{
+	display:inline;
+	font-weight: 400;
+	font-size:14px;
+	padding-bottom:1em;
+	text-align:center;
+	vertical-align:center;
+}
+
+#form-search{
+	text-align: center;
+}
+
+button, select{
+	padding: 4px;
+	margin: 0;
+	width: 100px;
+	margin-right: 1em;
+}
+
+label {
+	margin-right: 0.2em;
+	vertical-align: middle
+}
+
+div#gumbi {
+	text-align: center;
+}
+
+div.field {
+	margin-bottom: 1em;
+}
+
+div#dialog {
+	padding: 1em;
+	font-family: sans-serif;
+	font-size: 12pt;
+}
+
+div#search-result {
+	width: 100%;
+}
+
+table {
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 10pt;
+}
+
+thead {
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(110, 171, 207, 0.6);
+}
+
+tr.break {
+	text-align: center;	
+}
+
+.decorated{
+     overflow: hidden;
+     text-align: center;
+ }
+
+.decorated > span{
+    position: relative;
+    display: inline-block;
+	font-weight: bold;
+}
+
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid rgba(110, 171, 207, 1.0);
+    margin: 0 20px;
+	width: 640px;
+}
+
+.decorated > span:before{
+    right: 100%;
+}
+
+.decorated > span:after{
+    left: 100%;
+}
+
+tr.even {
+	background-color: rgba(110, 171, 207, 0.3);
+}
+
+td {
+	padding: 0.4em 0.6em;
+}
+
+td.marked {
+	background-color: rgba(0, 255, 0, 0.3);
+}
+
+td[id*="polazak"], td[id*="dolazak"], td[id*="linija"]{
+	text-align: center;
+}
+
+/***/
+
+.classname {
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+	border-bottom-right-radius:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:128px;
+	line-height:128px;
+	width:auto;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+.classname:active {
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Polet Vinkovci d.o.o.</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">                                                 
+	<link rel="stylesheet" href="js/jquery-ui-1.11.1.custom/jquery-ui.css" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">	
+	<script src="js/jquery-1.11.1.min.js"></script>	
+	<script src="js/jquery-ui-1.11.1.custom/jquery-ui.min.js"></script>
+	<script src="js/function.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<img src="media/img/logo.png" width="300"/>
+			<nav class="main-nav">
+				<ul>
+					<li><a href="http://www.polet.hr">Početna</a></li>
+					<li><a href="http://www.polet.hr/kontakt">Kontakt</a></li>
+				</ul>
+			</nav>
+		</div>
+    
+		<div class="container shadow">
+			<div id="search">
+			<h2>MEĐUŽUPANIJSKI PRIJEVOZ</h2>	
+			<form id="form-search" name="search" action="php/get/list.php">
+				<div class="field">
+				<label for="form-search-polaziste">Polazište:</label>
+				<select id="form-search-polaziste" name="search-polaziste">
+					<option value="">...</option>
+				</select>
+				<label for="form-search-odrediste">Odredište:</label>
+				<select id="form-search-odrediste" name="search-odrediste">
+					<option value="">...</option>
+				</select>
+				</div>
+				<div class="field">
+				<button type="button" onclick="window.location.href='index.html'">Natrag</button>
+				<button type="submit">Pretraži</button>
+				</div>
+			</form>
+			</div>
+			
+			<p>Klikom na identifikator linije u stupcu 'Linija' otvara se prozor
+			sa napomenom vezanom uz liniju!<br/><br/></p>
+			
+			<div id="search-result">
+			</div>
+    	</div>		
+	</div>
+	<div id="dialog" title="Napomena:">
+	</div>
+</body>
+</html>
